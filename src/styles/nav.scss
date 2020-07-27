@@ -111,4 +111,44 @@ $nav-pad: 350px;
 		}
 	}
 	
+	@media screen and (max-width: 500px) {
+		& {
+			padding: 0 15px;
+		}
+		
+		&__logo {
+			margin-left: 5%;
+		}
+		
+		&__list {
+			margin-left: 25%;
+			flex-wrap: wrap;
+		}
+		
+		&__item {
+			flex: 1 1 50%;
+			height: 33%;
+			position: relative;
+			
+			&:hover {
+				transform: scale(1.1);
+				&:after {
+					bottom: 0%;
+				}
+			}
+
+		}
+		
+		&__link {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			
+			&:before {
+				content: "- ";
+			}
+		}
+		
+	}
+	
 }

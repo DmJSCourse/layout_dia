@@ -166,4 +166,31 @@ $block-height: 760px;
 			}
 		}
 	}
+	
+	@media screen and (max-width: 500px) {
+		& {
+			height: $block-height*1.8;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+		&__header-big {
+			width: 90%;
+			margin: 10px 0;
+		}
+		
+		&__text {
+			width: 90%;
+		}
+		
+		&__card {
+			position: relative;
+			left: unset;
+			top: unset;
+			width: 90%;
+		}
+		
+	}
 }

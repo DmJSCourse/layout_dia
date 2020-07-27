@@ -178,4 +178,16 @@ $slider-button-size: 32px;
 		}
 	}
 	
+	@media screen and (max-width: 500px) {
+		&__slider-title {
+			bottom: calc(70% + 70px);
+			left: 48px;
+		}
+		
+		&__slider-text {
+			bottom: 70%;
+			left: 48px;
+		}
+	}
+	
 }

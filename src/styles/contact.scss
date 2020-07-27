@@ -109,4 +109,48 @@ $header-margin: 56px;
 		}
 	}
 	
+	@media screen and (max-width: 500px) {
+		& {
+			flex-direction: column-reverse;
+			padding: 5% 3%;
+			
+			&__form {
+				width: 100%;
+				height: 50%;
+			}
+			
+			&__info {
+				width: 100%;
+				height: 50%;
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			
+			&__info-header {
+				margin: 0;
+			}
+			
+			&__info-label {
+				margin: 0;
+			}
+			
+			&__socials {
+				margin: 0 0 30px;
+			}
+			
+
+			&__form-header {
+					margin: 0;
+			}
+			
+			&__email, 
+			&__msg, 
+			&__name {
+				margin: 20px 0;
+			}
+		}
+	}
+	
 }

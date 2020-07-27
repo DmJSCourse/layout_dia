@@ -132,4 +132,27 @@ $base-pad: 228px;
 		}
 	}
 	
+	@media screen and (max-width: 500px) {
+		& {
+			padding: 5%;
+			height: $testimonials-height*1.85;
+		}
+		
+		&__card {
+			width: 100%;
+			flex: 1 1 100%;
+			margin-bottom: 24px;
+			@include hover (transform, scale(1.1));
+			overflow: hidden;
+		}
+		
+		&__header-small {
+			text-align: center;
+		}
+		
+		&__header-big {
+			margin: 24px 0;
+		}
+	}
+	
 }

@@ -104,4 +104,37 @@ $approach-pad: 204px;
 			}
 		}
 	}
+	
+	@media screen and (max-width: 500px) {
+		& {
+			padding: 5% 5%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			border-radius: 25% 0 0;
+			
+			&__picture {
+				position: relative;
+				flex: 0 0 25%;
+			}
+			
+			&__block {
+				width: 100%;
+				margin: 0;
+			}
+			
+			&__header-big {
+				margin: 0 0 0 25%;
+			}
+			
+			&__text {
+				width: 50%;
+			}
+			
+			&__icon {
+				margin-left: 5%;
+			}
+		}
+	}
 }

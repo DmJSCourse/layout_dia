@@ -74,5 +74,11 @@
     width: 80%;
   }
 }
+@media screen and (max-width: 500px) {
+  .expertise__header {
+    padding: 7% 0 0;
+    line-height: 40px;
+  }
+}
 
 /*# sourceMappingURL=expertise.css.map */

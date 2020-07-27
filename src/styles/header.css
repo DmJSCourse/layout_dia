@@ -178,5 +178,15 @@
     top: 50%;
   }
 }
+@media screen and (max-width: 500px) {
+  .header__slider-title {
+    bottom: calc(70% + 70px);
+    left: 48px;
+  }
+  .header__slider-text {
+    bottom: 70%;
+    left: 48px;
+  }
+}
 
 /*# sourceMappingURL=header.css.map */

@@ -78,4 +78,11 @@ $expertise-height: 760px;
 			width: 80%;
 		}
 	}
+	
+	@media screen and (max-width: 500px) {
+		&__header {
+			padding: 7% 0 0;
+			line-height: 40px;
+		}
+	}
 }

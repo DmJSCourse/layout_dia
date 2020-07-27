@@ -91,5 +91,36 @@
     letter-spacing: normal;
   }
 }
+@media screen and (max-width: 500px) {
+  .nav {
+    padding: 0 15px;
+  }
+  .nav__logo {
+    margin-left: 5%;
+  }
+  .nav__list {
+    margin-left: 25%;
+    flex-wrap: wrap;
+  }
+  .nav__item {
+    flex: 1 1 50%;
+    height: 33%;
+    position: relative;
+  }
+  .nav__item:hover {
+    transform: scale(1.1);
+  }
+  .nav__item:hover:after {
+    bottom: 0%;
+  }
+  .nav__link {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .nav__link:before {
+    content: "- ";
+  }
+}
 
 /*# sourceMappingURL=nav.css.map */

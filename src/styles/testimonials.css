@@ -202,5 +202,27 @@
     height: 1947.5px;
   }
 }
+@media screen and (max-width: 500px) {
+  .testimonials {
+    padding: 5%;
+    height: 1896.25px;
+  }
+  .testimonials__card {
+    width: 100%;
+    flex: 1 1 100%;
+    margin-bottom: 24px;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+  }
+  .testimonials__card:hover {
+    transform: scale(1.1);
+  }
+  .testimonials__header-small {
+    text-align: center;
+  }
+  .testimonials__header-big {
+    margin: 24px 0;
+  }
+}
 
 /*# sourceMappingURL=testimonials.css.map */

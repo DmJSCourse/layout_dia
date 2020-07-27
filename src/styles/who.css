@@ -24,5 +24,13 @@
     padding: 71.4285714286px 10%;
   }
 }
+@media screen and (max-width: 500px) {
+  .who {
+    padding: 5%;
+  }
+  .who__header {
+    margin-bottom: 30px;
+  }
+}
 
 /*# sourceMappingURL=who.css.map */

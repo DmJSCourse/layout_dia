@@ -128,5 +128,38 @@
     flex-direction: column;
   }
 }
+@media screen and (max-width: 500px) {
+  .contact {
+    flex-direction: column-reverse;
+    padding: 5% 3%;
+  }
+  .contact__form {
+    width: 100%;
+    height: 50%;
+  }
+  .contact__info {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact__info-header {
+    margin: 0;
+  }
+  .contact__info-label {
+    margin: 0;
+  }
+  .contact__socials {
+    margin: 0 0 30px;
+  }
+  .contact__form-header {
+    margin: 0;
+  }
+  .contact__email, .contact__msg, .contact__name {
+    margin: 20px 0;
+  }
+}
 
 /*# sourceMappingURL=contact.css.map */

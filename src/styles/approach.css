@@ -94,5 +94,32 @@
     float: none;
   }
 }
+@media screen and (max-width: 500px) {
+  .approach {
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25% 0 0;
+  }
+  .approach__picture {
+    position: relative;
+    flex: 0 0 25%;
+  }
+  .approach__block {
+    width: 100%;
+    margin: 0;
+  }
+  .approach__header-big {
+    margin: 0 0 0 25%;
+  }
+  .approach__text {
+    width: 50%;
+  }
+  .approach__icon {
+    margin-left: 5%;
+  }
+}
 
 /*# sourceMappingURL=approach.css.map */
