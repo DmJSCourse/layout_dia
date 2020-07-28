@@ -107,7 +107,7 @@
   transition: transform 0.5s ease-in-out;
   display: flex;
   align-items: center;
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
   flex-shrink: 0;
 }
 .process__card-button:hover {

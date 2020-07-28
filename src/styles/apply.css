@@ -39,7 +39,7 @@
   line-height: 22.5px;
   color: #fff;
   transition: transform 0.5s ease-in-out;
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
 }
 .apply__button:hover {
   transform: scale(1.1);

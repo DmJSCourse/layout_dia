@@ -37,7 +37,7 @@
   line-height: 22.5px;
   color: #fff;
   transition: transform 0.5s ease-in-out;
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
 }
 .header__button:hover {
   transform: scale(1.1);
@@ -115,6 +115,7 @@
   border: 1px solid #fff;
   transition: all 0.5s ease-in;
   z-index: 2;
+  cursor: pointer;
 }
 .header__slider-button--left {
   left: 48px;

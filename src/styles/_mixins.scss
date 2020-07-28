@@ -6,7 +6,8 @@
 }
 
 @mixin custom-cursor {
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  // cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
 }
 
 @mixin header ($font-size) {

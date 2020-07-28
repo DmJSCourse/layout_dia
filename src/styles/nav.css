@@ -15,7 +15,7 @@
   background-repeat: no-repeat;
 }
 .nav__logo:hover {
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
 }
 .nav__list {
   display: flex;
@@ -33,7 +33,7 @@
   margin-left: auto;
 }
 .nav__item:hover {
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
   transform: scale(1.2);
 }
 .nav__item:hover:after {
@@ -55,7 +55,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
 }
 @media screen and (max-width: 1280px) {
   .nav__list {

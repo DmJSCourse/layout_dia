@@ -30,6 +30,7 @@
   width: 184px;
   margin: auto;
   transition: transform 0.5s ease-in-out;
+  cursor: pointer;
 }
 .expertise__card-image:hover {
   transform: scale(1.2);
@@ -50,6 +51,13 @@
   color: #6c788b;
   text-align: center;
 }
+@media screen and (max-width: 1720px) {
+  .expertise__header {
+    width: 80%;
+    text-align: center;
+    padding: 128px 0 64px;
+  }
+}
 @media screen and (max-width: 820px) {
   .expertise {
     height: 1292px;
@@ -58,7 +66,6 @@
     padding: 25.6px 0 25.6px;
     width: 80%;
     height: 10%;
-    text-align: center;
   }
   .expertise__cards {
     height: 90%;

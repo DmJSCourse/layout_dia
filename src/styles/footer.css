@@ -25,7 +25,7 @@
   transition: all 1s ease-in-out;
 }
 .footer__item:hover {
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
   transform: scale(1.2);
 }
 .footer__item:hover:after {
@@ -47,7 +47,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
   .footer__logo {

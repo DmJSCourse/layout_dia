@@ -52,7 +52,7 @@
   line-height: 22.5px;
   color: #fff;
   transition: transform 0.5s ease-in-out;
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
   margin-top: 80px;
 }
 .contact__button:hover {
@@ -99,7 +99,7 @@
   width: 24px;
 }
 .contact__social:hover {
-  cursor: url(../images/Cursor/Mouse/Vector.svg), auto;
+  cursor: pointer;
   animation: filter-in 500ms both ease-in-out;
 }
 @keyframes filter-in {

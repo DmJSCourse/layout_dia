@@ -1,13 +1,13 @@
 var slideIndex = 1;
-showSlides(slideIndex);
+
+document.getElementById("btnRight").addEventListener("click", () => plusSlides(1));
+document.getElementById("btnLeft").addEventListener("click", () => plusSlides(-1));
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+showSlides(slideIndex);
 
 function showSlides(n) {
   var slides = document.getElementsByClassName("header__slide");
